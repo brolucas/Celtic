@@ -22,7 +22,7 @@ public class Joueur : MonoBehaviour
             end = true;
         }
 
-        if (end == false)
+        if (end == true)
         {
             Debug.Log("Fin de partie ");
         }

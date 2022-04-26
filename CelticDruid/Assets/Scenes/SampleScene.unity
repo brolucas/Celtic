@@ -520,7 +520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1276765322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,7 +533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cad923407d6cb8e499b6d80705637a2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beatTempo: 0
+  beatTempo: 120
   hasStarted: 0
 --- !u!4 &1276765323
 Transform:
@@ -543,7 +543,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276765321}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.41965103, y: 0.6373267, z: -4.3878546}
+  m_LocalPosition: {x: 9.489998, y: 4.247375, z: 0.6822729}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1536038530}
@@ -724,7 +724,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1536038528}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.049651, y: 3.1726732, z: 1.8527908}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1276765323}
@@ -923,7 +923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f8620ac15f6c24db79e80ba7984911, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  noteHolder: {fileID: 1276765321}
 --- !u!61 &1958040756
 BoxCollider2D:
   m_ObjectHideFlags: 0
