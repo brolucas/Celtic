@@ -6,6 +6,8 @@ public class NoteObject : MonoBehaviour
 {
     public bool canBePressed;
     public KeyCode keyToPress;
+    private bool get = false;
+    public bool isLastRune = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +21,10 @@ public class NoteObject : MonoBehaviour
         {
             if (canBePressed)
             {
+                GameManager.instance.NoteHit();
+                get = true;
                 gameObject.SetActive(false);
+                    
             }
         }
     }
@@ -35,6 +40,15 @@ public class NoteObject : MonoBehaviour
         if (other.tag == "Activator")
         {
             canBePressed = false;
+            if (!get)
+            {
+                GameManager.instance.NoteMissed();
+
+            }
+            if (isLastRune)
+            {
+                GameManager.instance.endPhase = true;
+            }
         }
     }
 }
