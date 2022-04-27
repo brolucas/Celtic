@@ -16,11 +16,19 @@ D:/cours A2/unitydruide/Celtic/CelticDruid
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 59425
 Successfully changed project path to: C:/Users/Lucas/Desktop/Celtic/CelticDruid
 C:/Users/Lucas/Desktop/Celtic/CelticDruid
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 170.54 ms, found 3 plugins.
+=======
+50177
+Successfully changed project path to: D:/cours A2/unitydruide/Celtic/CelticDruid
+D:/cours A2/unitydruide/Celtic/CelticDruid
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.69 ms, found 3 plugins.
+>>>>>>> Stashed changes
 =======
 50177
 Successfully changed project path to: D:/cours A2/unitydruide/Celtic/CelticDruid
@@ -40,6 +48,7 @@ Direct3D:
     VRAM:     5980 MB
     Driver:   30.0.14.9733
 Initialize mono
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
@@ -64,6 +73,14 @@ Mono config path = 'C:/Users/jujul/OneDrive/Bureau/communication/2020.3.26f1/Edi
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+=======
+Mono path[0] = 'C:/Users/jujul/OneDrive/Bureau/communication/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/jujul/OneDrive/Bureau/communication/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/jujul/OneDrive/Bureau/communication/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+>>>>>>> Stashed changes
 Register platform support module: C:/Users/jujul/OneDrive/Bureau/communication/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.003289 seconds.
 Native extension for WindowsStandalone target not found
@@ -74,6 +91,9 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (684ms)
 		BeginReloadAssembly (66ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
@@ -111,6 +131,9 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (17ms)
 				ProcessInitializeOnLoadAttributes (90ms)
 				ProcessInitializeOnLoadMethodAttributes (30ms)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
@@ -118,6 +141,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 Registered in 0.011238 seconds.
 Begin MonoManager ReloadAssembly
@@ -188,6 +212,31 @@ Domain Reload Profiling:
 			RebuildScriptCaches (53ms)
 			SetupLoadedEditorAssemblies (504ms)
 				LogAssemblyErrors (0ms)
+=======
+Registered in 0.008148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1462ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1171ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (504ms)
+				LogAssemblyErrors (0ms)
+>>>>>>> Stashed changes
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (60ms)
@@ -228,6 +277,7 @@ Received Import Request.
   artifactKey: Guid(e2a6b146c71ee8a4f804ce1135b86aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/asset_esprit/eau.anim using Guid(e2a6b146c71ee8a4f804ce1135b86aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c90cc7471ab51ec82d0e310b2f9d43') in 0.059840 seconds 
   Import took 0.064815 seconds .
+<<<<<<< Updated upstream
 
 ========================================================================
 Received Import Request.
@@ -400,10 +450,53 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
  -> (artifact id: 'e9181de5a0d5e21dcf2d1861f2ae1036') in 0.061482 seconds 
   Import took 0.064793 seconds .
+=======
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.008358 seconds.
+  path: Assets/Image/boutonBlanc.png
+  artifactKey: Guid(8425ecb25c04d9641a5280ecf6d60a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/boutonBlanc.png using Guid(8425ecb25c04d9641a5280ecf6d60a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c2fcedb472ab50738d861f0785cb38') in 0.277990 seconds 
+  Import took 0.282094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Image/Capture2.PNG
+  artifactKey: Guid(e9074b86e6358e04f99e2620c42781e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Capture2.PNG using Guid(e9074b86e6358e04f99e2620c42781e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039f86a024eb1aa1787a7139adeefbbb') in 0.084053 seconds 
+  Import took 0.087304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Image/Capture.PNG
+  artifactKey: Guid(29162d811a773e545a7b1a29bf4baab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Capture.PNG using Guid(29162d811a773e545a7b1a29bf4baab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4fef31e90691b0cacc987effc92f67') in 0.035297 seconds 
+  Import took 0.039203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Image/unknown.png
+  artifactKey: Guid(cae738ed6fb717e4b95d2e1187ba05b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/unknown.png using Guid(cae738ed6fb717e4b95d2e1187ba05b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0ef13b024e8d6da080f866746896a0') in 0.101593 seconds 
+  Import took 0.104781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Image/RuneTemp.png
+  artifactKey: Guid(dd6fed75f70a3314fa3e265698fe5809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/RuneTemp.png using Guid(dd6fed75f70a3314fa3e265698fe5809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b712982b12c4577a79ed9cf96edf0d2') in 0.066563 seconds 
+  Import took 0.069497 seconds .
+>>>>>>> Stashed changes
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.006344 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -414,10 +507,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1067ms)
 		BeginReloadAssembly (125ms)
+=======
+Registered in 0.007907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.008 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1009ms)
+		BeginReloadAssembly (130ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (34ms)
 		EndReloadAssembly (873ms)
 			LoadAssemblies (91ms)
@@ -432,10 +538,27 @@ Domain Reload Profiling:
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (95ms)
 				ProcessInitializeOnLoadAttributes (178ms)
+=======
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+>>>>>>> Stashed changes
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
+<<<<<<< Updated upstream
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
@@ -446,6 +569,18 @@ System memory in use after: 98.6 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2655.
 Total: 2.721800 ms (FindLiveObjects: 0.155200 ms CreateObjectMapping: 0.091400 ms MarkObjects: 2.458900 ms  DeleteObjects: 0.015400 ms)
+>>>>>>> Stashed changes
+=======
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.3 MB.
+System memory in use after: 98.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 2.915000 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.094400 ms MarkObjects: 2.598800 ms  DeleteObjects: 0.015100 ms)
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -461,6 +596,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   Time since last request: 1890.458353 seconds.
   path: Assets/Script/NoteObject.cs
@@ -614,13 +750,113 @@ Total: 8.216500 ms (FindLiveObjects: 0.294300 ms CreateObjectMapping: 0.162800 m
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+=======
+  Time since last request: 174.942969 seconds.
+  path: Assets/Scenes/asset_esprit/eau.anim
+  artifactKey: Guid(e2a6b146c71ee8a4f804ce1135b86aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/eau.anim using Guid(e2a6b146c71ee8a4f804ce1135b86aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c09911564a15f7390790a843611928') in 0.020095 seconds 
+  Import took 0.024121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.198898 seconds.
+  path: Assets/Scenes/asset_esprit/eau.controller
+  artifactKey: Guid(249405324a473c94da517cd78de79aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/eau.controller using Guid(249405324a473c94da517cd78de79aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184c10d41636cb17d6e38ae9e5ef954d') in 0.012975 seconds 
+  Import took 0.017774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.823964 seconds.
+  path: Assets/Scenes/asset_esprit/prefab
+  artifactKey: Guid(6702fba7370f4a34ea51d314aaa6cb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/prefab using Guid(6702fba7370f4a34ea51d314aaa6cb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7514c3b0af553ac1985233be2d6f6914') in 0.007615 seconds 
+  Import took 0.011285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.636400 seconds.
+  path: Assets/Scenes/asset_esprit/prefab/espriteau.prefab
+  artifactKey: Guid(ac0c271545c6e0747b98c5ad7d0d26b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/prefab/espriteau.prefab using Guid(ac0c271545c6e0747b98c5ad7d0d26b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (espriteau) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (espriteau) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'e9181de5a0d5e21dcf2d1861f2ae1036') in 0.061482 seconds 
+  Import took 0.064793 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006344 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1067ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (873ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 98.5 MB.
 System memory in use after: 98.6 MB.
 
+<<<<<<< Updated upstream
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2658.
 Total: 2.842800 ms (FindLiveObjects: 0.162500 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.596300 ms  DeleteObjects: 0.015800 ms)
+>>>>>>> Stashed changes
+=======
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2655.
+Total: 2.721800 ms (FindLiveObjects: 0.155200 ms CreateObjectMapping: 0.091400 ms MarkObjects: 2.458900 ms  DeleteObjects: 0.015400 ms)
 >>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -637,15 +873,82 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Import Request.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   Time since last request: 179.533728 seconds.
   path: Assets/Script/NoteObject.cs
   artifactKey: Guid(7a9def39a9365b247ad59a2ad2e6716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Script/NoteObject.cs using Guid(7a9def39a9365b247ad59a2ad2e6716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b86fde572abdf7d860695be362c4f76') in 0.012622 seconds 
   Import took 0.024808 seconds .
+=======
+  Time since last request: 147.790988 seconds.
+  path: Assets/Scenes/asset_esprit/prefab/EspritEau 1.prefab
+  artifactKey: Guid(ab17265bdf82e244da649dc888b5e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/prefab/EspritEau 1.prefab using Guid(ab17265bdf82e244da649dc888b5e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (EspritEau 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (EspritEau 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'bbb273035c720109f8a6e28b43423ea2') in 0.064130 seconds 
+  Import took 0.067465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.923407 seconds.
+  path: Assets/Scenes/asset_esprit/prefab/EspritEau.prefab
+  artifactKey: Guid(ab17265bdf82e244da649dc888b5e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/prefab/EspritEau.prefab using Guid(ab17265bdf82e244da649dc888b5e2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (EspritEau 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (EspritEau 1) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '7189f0891b6a106c89eaaa45bc6cdb2f') in 0.016876 seconds 
+  Import took 0.020736 seconds .
+>>>>>>> Stashed changes
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.010988 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -656,10 +959,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (3223ms)
 		BeginReloadAssembly (302ms)
+=======
+Registered in 0.006431 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1014ms)
+		BeginReloadAssembly (132ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 			CreateAndSetChildDomain (91ms)
 		EndReloadAssembly (2725ms)
 			LoadAssemblies (293ms)
@@ -822,6 +1138,35 @@ System memory in use after: 95.6 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2642.
 Total: 8.139400 ms (FindLiveObjects: 0.304400 ms CreateObjectMapping: 0.165300 ms MarkObjects: 7.609800 ms  DeleteObjects: 0.056500 ms)
+=======
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2658.
+Total: 2.842800 ms (FindLiveObjects: 0.162500 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.596300 ms  DeleteObjects: 0.015800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -830,11 +1175,38 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  Time since last request: 144.797996 seconds.
+  path: Assets/Scenes/asset_esprit/terrepascontent3.png
+  artifactKey: Guid(c88adf82f07b08a4ab31735d3fa58e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/terrepascontent3.png using Guid(c88adf82f07b08a4ab31735d3fa58e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c7d4882db4d2c44cda483b8cc0abff') in 0.067162 seconds 
+  Import took 0.070448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Scenes/asset_esprit/terrepascontent.png
+  artifactKey: Guid(cf086f6b123292b48862d0d8813953bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/terrepascontent.png using Guid(cf086f6b123292b48862d0d8813953bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5aa4c02e7c731c7c66661824925f7e') in 0.021525 seconds 
+  Import took 0.024557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Scenes/asset_esprit/terrepascontent2.png
+  artifactKey: Guid(ae0745649c878d84ea8fb616fed8d72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/terrepascontent2.png using Guid(ae0745649c878d84ea8fb616fed8d72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5882bc5230557fb9aa5594642db37ee8') in 0.018589 seconds 
+  Import took 0.021672 seconds .
+>>>>>>> Stashed changes
+
+========================================================================
+Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 23.349616 seconds.
   path: Assets/Script/NoteObject.cs
   artifactKey: Guid(7a9def39a9365b247ad59a2ad2e6716d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1050,6 +1422,154 @@ Start importing Assets/Scenes/asset_esprit/feupasconent.png using Guid(77ddf4488
 
 ========================================================================
 Received Import Request.
+=======
+  Time since last request: 169.950155 seconds.
+  path: Assets/Scenes/asset_esprit/eau1.png
+  artifactKey: Guid(c7ce9691d4d0ec34a83a26ff06eeeca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/eau1.png using Guid(c7ce9691d4d0ec34a83a26ff06eeeca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0c8b6304a546799fd85e47d6a97683') in 0.026283 seconds 
+  Import took 0.029550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.838458 seconds.
+  path: Assets/Scenes/asset_esprit/eau2.png
+  artifactKey: Guid(6d8369f0cd5750e4d80328270f4d50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/eau2.png using Guid(6d8369f0cd5750e4d80328270f4d50c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6461e5e8dd959e56c51d07043614de') in 0.029041 seconds 
+  Import took 0.032936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.631201 seconds.
+  path: Assets/Scenes/asset_esprit/eau3.png
+  artifactKey: Guid(059b7104b7734544cb21dfeaa7a50e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/eau3.png using Guid(059b7104b7734544cb21dfeaa7a50e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e00f59ea9f969c4cee47833b0c3fc01') in 0.052666 seconds 
+  Import took 0.056187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.855624 seconds.
+  path: Assets/Scenes/asset_esprit/pascontent.png
+  artifactKey: Guid(81272f8ef6465ac4e88308a98dd39e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/pascontent.png using Guid(81272f8ef6465ac4e88308a98dd39e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fee228bfee8f6ad019296dbbd988ec') in 0.024351 seconds 
+  Import took 0.028257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.109696 seconds.
+  path: Assets/Scenes/asset_esprit/pascontent2.png
+  artifactKey: Guid(3633759875bd0e74ab0fc1629f3b13e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/pascontent2.png using Guid(3633759875bd0e74ab0fc1629f3b13e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd958517b8dbb89536f6a15522791605f') in 0.024693 seconds 
+  Import took 0.028319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.133037 seconds.
+  path: Assets/Scenes/asset_esprit/pascontent3.png
+  artifactKey: Guid(165c3a3e182eed549876901407358949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/pascontent3.png using Guid(165c3a3e182eed549876901407358949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c07b2fb3c4fd3987b6f28ebf15d4f0') in 0.023011 seconds 
+  Import took 0.026667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.462550 seconds.
+  path: Assets/Scenes/asset_esprit/prefab/EspritPasContent.prefab
+  artifactKey: Guid(3447054b06039444c9cb138336c32889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/prefab/EspritPasContent.prefab using Guid(3447054b06039444c9cb138336c32889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (EspritPasContent) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (EspritPasContent) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'ede03af39d2568508a98a8e15ecb20fa') in 0.045774 seconds 
+  Import took 0.049267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.366127 seconds.
+  path: Assets/Scenes/asset_esprit/feu1.png
+  artifactKey: Guid(3a66d807f2c808d45a15c37ac84572e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/feu1.png using Guid(3a66d807f2c808d45a15c37ac84572e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35fb5e878c0bed641d4b18b4f550d08') in 0.027943 seconds 
+  Import took 0.032127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.733532 seconds.
+  path: Assets/Scenes/asset_esprit/feu2.png
+  artifactKey: Guid(1ca19521eaa9d12478c9553baea0eb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/feu2.png using Guid(1ca19521eaa9d12478c9553baea0eb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fd43b1bdd6b05d97dfd6cb1e1212f8') in 0.026567 seconds 
+  Import took 0.030133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.801109 seconds.
+  path: Assets/Scenes/asset_esprit/feu3.png
+  artifactKey: Guid(663f86b7f9d56174187a27e070fef34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/feu3.png using Guid(663f86b7f9d56174187a27e070fef34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da27691f7a92a3913adc26be23eadbf7') in 0.061274 seconds 
+  Import took 0.065071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.726889 seconds.
+  path: Assets/Scenes/asset_esprit/prefab/EpritFeu.prefab
+  artifactKey: Guid(13013918088c4d74fad04c26b3dc0c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/prefab/EpritFeu.prefab using Guid(13013918088c4d74fad04c26b3dc0c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (GameObject) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+The Animator Controller (GameObject) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'b29a736fdedd2156b4204682be59244d') in 0.017826 seconds 
+  Import took 0.021854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.993659 seconds.
+  path: Assets/Scenes/asset_esprit/feupasconent.png
+  artifactKey: Guid(77ddf4488c5b7da419f94795bdae90fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/asset_esprit/feupasconent.png using Guid(77ddf4488c5b7da419f94795bdae90fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea12aac92c2d01b4f9b0172125132786') in 0.030024 seconds 
+  Import took 0.034569 seconds .
+
+========================================================================
+Received Import Request.
+>>>>>>> Stashed changes
   Time since last request: 6.037701 seconds.
   path: Assets/Scenes/asset_esprit/feupasconent2.png
   artifactKey: Guid(34d9e7b7aa7efac479d07ce0e03b4d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1064,5 +1584,8 @@ Received Import Request.
 Start importing Assets/Scenes/asset_esprit/feupasconent3.png using Guid(68c5f2c616488c740ad35df53804dfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de015a4418a2be1c067d2a4abe544e16') in 0.043821 seconds 
   Import took 0.047448 seconds .
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
