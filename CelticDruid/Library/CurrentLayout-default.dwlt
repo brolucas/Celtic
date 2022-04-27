@@ -25,6 +25,7 @@ MonoBehaviour:
   m_RootView: {fileID: 7}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_MinSize: {x: 875, y: 300}
 =======
   m_Title: Scene
@@ -35,6 +36,9 @@ MonoBehaviour:
   m_Title: Scene
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 621}
+>>>>>>> Stashed changes
+=======
+  m_MinSize: {x: 875, y: 542}
 >>>>>>> Stashed changes
 =======
   m_MinSize: {x: 875, y: 542}
@@ -424,6 +428,9 @@ MonoBehaviour:
   vertical: 1
   controlID: 92
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -471,6 +478,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 93
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -692,6 +702,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - Assets/Script
 =======
     - Assets/Scenes/Perso
@@ -705,11 +716,15 @@ MonoBehaviour:
 =======
     - Assets/Prefab
 >>>>>>> Stashed changes
+=======
+    - Assets/Prefab
+>>>>>>> Stashed changes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -727,12 +742,16 @@ MonoBehaviour:
 =======
   - Assets/Prefab
 >>>>>>> Stashed changes
+=======
+  - Assets/Prefab
+>>>>>>> Stashed changes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\cours A2\unitydruide\Celtic\CelticDruid
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -749,6 +768,11 @@ MonoBehaviour:
     m_SelectedIDs: b0440000
     m_LastClickedID: 17584
     m_ExpandedIDs: 000000007a4300008e4300009243000000ca9a3b
+>>>>>>> Stashed changes
+=======
+    m_SelectedIDs: 72430000
+    m_LastClickedID: 17266
+    m_ExpandedIDs: 000000006c4300007043000000ca9a3b
 >>>>>>> Stashed changes
 =======
     m_SelectedIDs: 72430000
@@ -912,6 +936,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       m_SelectedIDs: d6420000
       m_LastClickedID: 17110
       m_ExpandedIDs: 64fbffffe0420000f242000008430000
@@ -924,6 +949,11 @@ MonoBehaviour:
       m_SelectedIDs: b4440000
       m_LastClickedID: 0
       m_ExpandedIDs: 66fbffff
+>>>>>>> Stashed changes
+=======
+      m_SelectedIDs: 22430000
+      m_LastClickedID: 17186
+      m_ExpandedIDs: 4ee0ffff64fbffffd8420000e4420000f842000014430000
 >>>>>>> Stashed changes
 =======
       m_SelectedIDs: 22430000
@@ -998,6 +1028,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 0.99126595, y: 1.6982261, z: -3.4943366}
     speed: 2
     m_Value: {x: 0.71564806, y: 1.6666604, z: -3.4693499}
@@ -1010,6 +1041,11 @@ MonoBehaviour:
     m_Target: {x: -8.215957, y: -8.834956, z: -19.116156}
     speed: 2
     m_Value: {x: -8.215957, y: -8.834956, z: -19.116156}
+>>>>>>> Stashed changes
+=======
+    m_Target: {x: -3.8509166, y: 0.09708664, z: -6.841791}
+    speed: 2
+    m_Value: {x: -3.8509166, y: 0.09708664, z: -6.841791}
 >>>>>>> Stashed changes
 =======
     m_Target: {x: -3.8509166, y: 0.09708664, z: -6.841791}
@@ -1075,6 +1111,7 @@ MonoBehaviour:
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: 5.8024645
     speed: 2
     m_Value: 5.5525975
@@ -1087,6 +1124,11 @@ MonoBehaviour:
     m_Target: 14.88451
     speed: 2
     m_Value: 14.88451
+>>>>>>> Stashed changes
+=======
+    m_Target: 4.852524
+    speed: 2
+    m_Value: 4.852524
 >>>>>>> Stashed changes
 =======
     m_Target: 4.852524
