@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1167235267295281854}
   - component: {fileID: 6875460616245276203}
   - component: {fileID: 3790503272358777595}
+  - component: {fileID: 3822183979533172956}
   m_Layer: 0
   m_Name: EspritTerrePasContent
   m_TagString: Untagged
@@ -102,3 +103,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3822183979533172956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3697195789556190547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0342cea4fc656448a32d4a2021150a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fire: 0
+  water: 0
+  earth: 1
+  wind: 0
+  tuto: 0
+  phaseContente: {fileID: 21300000, guid: b0b28a21db21291499f88862e47dfdea, type: 3}
+  animator: {fileID: 0}
