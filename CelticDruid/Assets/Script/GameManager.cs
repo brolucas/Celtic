@@ -55,10 +55,16 @@ public class GameManager : MonoBehaviour
             startPlaying = false;
             if (failed)
             {
-                player.gameObject.GetComponent<Joueur>().SpiritCalmed++;
-                failed = false;
+                player.gameObject.GetComponent<Joueur>().SpiritCalmed--;
 
             }
+            else
+            {
+                player.gameObject.GetComponent<Joueur>().SpiritCalmed++;
+
+            }
+            failed = false;
+
 
 
 

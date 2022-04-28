@@ -12,6 +12,7 @@ public class Event : MonoBehaviour
     public int nbrRune;
     public int difficulté = 3;
     public int nbrMaxMissedRune;
+    public Animator spiritEvent;
   
 
     private void Start()
