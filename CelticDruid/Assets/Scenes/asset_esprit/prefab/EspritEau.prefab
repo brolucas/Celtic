@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5091936019481609738}
   m_Layer: 0
   m_Name: EspritEau
-  m_TagString: Untagged
+  m_TagString: Ally
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93,7 +93,7 @@ Animator:
   m_GameObject: {fileID: 3164671705112390190}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 012c64d25e996594a9dc3b601540504d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 249405324a473c94da517cd78de79aa1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -4,27 +4,47 @@ using UnityEngine;
 
 public class Vie : MonoBehaviour
 {
-    public float distanceBetween = 3f;
-    public float firstSpiritPosition;
-    public GameObject[] lifeCount2;
-    public GameObject[] spirits;
-    public int life = 1;
+
+    public float distance = 3;
+    public Vector3 firstElementposition;
+    public Queue<GameObject> calmedSpirits;
+    public List<GameObject> instanciedSpirits;
+    public Camera theCamera;
+    public GameObject baseSpirit;
+    public GameObject baseSpirit2;
+
+    public float speed = 200;
 
     // Start is called before the first frame update
     void Start()
     {
-        firstSpiritPosition = transform.position.x - distanceBetween;
-        //hpCount.Enqueue(spirit);
-        lifeCount2[0].gameObject.SetActive(true);
+        calmedSpirits = new Queue<GameObject>();
+        instanciedSpirits = new List<GameObject>();
+        distance = 3;
+        firstElementposition = transform.position;
+        firstElementposition.x = firstElementposition.x - distance;
+        calmedSpirits.Enqueue(baseSpirit);
+        calmedSpirits.Enqueue(baseSpirit2);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-   
-        
+       /* int i = 1;
 
+        foreach (var item in calmedSpirits)
+        {
+            if (instanciedSpirits.Contains(item) == false)
+            {
+                Instantiate<GameObject>(item, new Vector3(transform.position.x - distance * i, transform.position.y, transform.position.z),Quaternion.identity);
+                item.name = i.ToString();
+                item.GetComponent<Rigidbody2D>().gravityScale = 0;
+                item.GetComponent<Rigidbody2D>().velocity = Vector2.right * 200 ;
+                instanciedSpirits.Add(item);
+
+                i++;
+            }
+           
+        }*/
     }
-    
 }

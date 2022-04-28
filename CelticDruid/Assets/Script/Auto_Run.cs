@@ -10,11 +10,12 @@ public class Auto_Run : MonoBehaviour
     void Start()
     {
         this.GetComponent<Rigidbody2D>().AddForce(Vector2.right * speed);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 2388345583595822828}
   - component: {fileID: 8287442370119620889}
   - component: {fileID: 5688480006740836385}
-  - component: {fileID: 7647991423767902431}
   m_Layer: 0
   m_Name: EpritFeu
-  m_TagString: Untagged
+  m_TagString: Ally
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5492163450639413517}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.68, y: -3.55, z: 0}
+  m_LocalPosition: {x: -6.6000004, y: -3.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -103,22 +102,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7647991423767902431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5492163450639413517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0342cea4fc656448a32d4a2021150a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fire: 0
-  water: 0
-  earth: 0
-  wind: 0
-  tuto: 0
-  phaseContente: {fileID: 0}
-  animator: {fileID: 0}

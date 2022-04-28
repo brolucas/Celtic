@@ -75,16 +75,10 @@ MonoBehaviour:
   theMusic: {fileID: 0}
   player: {fileID: 0}
   spirit: {fileID: 0}
-  listSpiritAnimContent:
-  - {fileID: 5492163450639413517, guid: 13013918088c4d74fad04c26b3dc0c5a, type: 3}
-  - {fileID: 3164671705112390190, guid: ab17265bdf82e244da649dc888b5e2b3, type: 3}
-  - {fileID: 6138561914631230622, guid: 04e534d7d3f5a4a4abb8ea5023dc6d01, type: 3}
-  - {fileID: 4199100036895505292, guid: b3733195d28432449a5a3c7596c12d45, type: 3}
-  listPlayerAnimPasContent:
-  - {fileID: 4094761500552778784, guid: d226f6a01bfa4a04a9bf2bc00fdf63f0, type: 3}
-  - {fileID: 7147735791379884507, guid: 3447054b06039444c9cb138336c32889, type: 3}
-  - {fileID: 3697195789556190547, guid: 051fe08d7de46274ab7502c3b752fc33, type: 3}
-  - {fileID: 843825027396002069, guid: 1e2e3adc138c9164c8dd21e4a4549fc8, type: 3}
+  nbrRune: 0
+  "difficult\xE9": 3
+  nbrMaxMissedRune: 0
+  spiritEvent: {fileID: 0}
 --- !u!212 &6337087804699948005
 SpriteRenderer:
   m_ObjectHideFlags: 0
