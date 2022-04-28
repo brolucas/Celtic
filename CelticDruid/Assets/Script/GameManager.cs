@@ -17,6 +17,10 @@ public class GameManager : MonoBehaviour
 
     public int currentScore;
     public int scoreByNote = 100;
+    public int scoreMaxPossible;
+
+    public int currentmissedRune;
+    public int maxMissedRune;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +31,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (currentmissedRune >= maxMissedRune)
+        {
+            endPhase = true;
+        }
         if (!startPlaying)
         {
             if (theBS.hasStarted)
@@ -39,10 +47,16 @@ public class GameManager : MonoBehaviour
         {
             theMusic.Stop();
             theBS.hasStarted = false;
-            endPhase = false;
             player.GetComponent<Rigidbody2D>().AddForce(Vector2.right * player.GetComponent<Auto_Run>().speed);
+            currentmissedRune = 0;
+            maxMissedRune = 0;
+            startPlaying = false;
+
+
 
         }
+        endPhase = false;
+
 
     }
     public void NoteHit()

@@ -43,6 +43,7 @@ public class NoteObject : MonoBehaviour
             if (!get)
             {
                 GameManager.instance.NoteMissed();
+                GameManager.instance.currentmissedRune += 1;
 
             }
             if (isLastRune)
