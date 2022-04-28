@@ -43,7 +43,7 @@ public class Spirit : MonoBehaviour
         if (GameManager.instance.currentScore >= GameManager.instance.scoreMaxPossible/2)
         {
             GetComponent<SpriteRenderer>().sprite = phaseContente;
-            animator.SetInteger("Current Score", 1);
+            animator.SetInteger("Current score", 1);
         }
     }
 }
