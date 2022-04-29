@@ -11,7 +11,6 @@ public class Vie : MonoBehaviour
     public List<GameObject> instanciedSpirits;
     public Camera theCamera;
     public GameObject baseSpirit;
-    public GameObject baseSpirit2;
 
     public float speed = 200;
 
@@ -24,7 +23,6 @@ public class Vie : MonoBehaviour
         firstElementposition = transform.position;
         firstElementposition.x = firstElementposition.x - distance;
         calmedSpirits.Enqueue(baseSpirit);
-        calmedSpirits.Enqueue(baseSpirit2);
     }
 
     // Update is called once per frame

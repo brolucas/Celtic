@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Activator
   - Ally
+  - Eau
+  - Feu
+  - Terre
+  - Vent
   layers:
   - Default
   - TransparentFX

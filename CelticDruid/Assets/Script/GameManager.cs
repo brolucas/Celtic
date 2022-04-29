@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject noteHolder;
 
+    public Event theEvent;
+
     public bool endPhase = false;
     public GameObject player;
 
@@ -26,6 +28,12 @@ public class GameManager : MonoBehaviour
     public int maxMissedRune;
 
     public Event box;
+
+    public GameObject eau;
+    public GameObject feu;
+    public GameObject terre;
+    public GameObject vent;
+
 
     // Start is called before the first frame update
     void Start()
@@ -58,19 +66,42 @@ public class GameManager : MonoBehaviour
             currentmissedRune = 0;
             maxMissedRune = 0;
             startPlaying = false;
+            noteHolder.SetActive(false); 
             if (failed)
             {
                 player.gameObject.GetComponent<Joueur>().SpiritCalmed--;
+                player.GetComponent<Vie>().calmedSpirits.Dequeue();
 
             }
             else
             {
+                GameObject temp;
                 player.gameObject.GetComponent<Joueur>().SpiritCalmed++;
+                if (theEvent.spirit.tag == "Eau")
+                {
+                    temp = eau;
+                }
+                else if(theEvent.spirit.tag == "Feu")
+                {
+                    temp = feu;
+                }
+                else if(theEvent.spirit.tag == "Terre")
+                {
+                    temp = terre;
+                }
+                else
+                {
+                    temp = vent;
+                }
+                player.GetComponent<Vie>().calmedSpirits.Enqueue(temp);
+
+
 
             }
             failed = false;
             endPhase = false;
             player.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 200 );
+
 
 
         }

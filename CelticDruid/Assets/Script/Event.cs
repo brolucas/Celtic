@@ -91,7 +91,7 @@ public class Event : MonoBehaviour
             GameManager.instance.theBS.hasStarted = true;
             GameManager.instance.box = this;
             spirit.GetComponent<Spirit>().goodSpirit = true;
-
+            GameManager.instance.theEvent = this;
             int i = 1;
 
             foreach (var item in collision.GetComponent<Vie>().calmedSpirits)
@@ -117,6 +117,7 @@ public class Event : MonoBehaviour
             
             spirit.GetComponent<Spirit>().goodSpirit = false;
             collision.GetComponent<Vie>().instanciedSpirits.Clear();
+            
 
         }
     }
