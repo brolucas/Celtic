@@ -11,6 +11,7 @@ public class Spirit : MonoBehaviour
     public bool tuto;
     public Sprite phaseContente;
     public Animator animator;
+    public bool goodSpirit = false;
 
     // Start is called before the first frame update
     void Start()
@@ -40,10 +41,14 @@ public class Spirit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.instance.currentScore >= GameManager.instance.scoreMaxPossible/2)
+        
+        if (GameManager.instance.currentScore > GameManager.instance.scoreMaxPossible/2 && goodSpirit)
         {
-            GetComponent<SpriteRenderer>().sprite = phaseContente;
-            animator.SetInteger("Current Score", 1);
+            Debug.Log(GameManager.instance.currentScore);
+            Debug.Log(GameManager.instance.scoreMaxPossible / 2);
+            //GetComponent<SpriteRenderer>().sprite = phaseContente;
+            animator.SetInteger("Current score", 1);
         }
+        
     }
 }
