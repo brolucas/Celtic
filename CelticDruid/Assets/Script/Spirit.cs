@@ -40,12 +40,10 @@ public class Spirit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.instance.currentScore > GameManager.instance.scoreMaxPossible/2)
+        if (GameManager.instance.currentScore >= GameManager.instance.scoreMaxPossible/2)
         {
-            Debug.Log(GameManager.instance.currentScore);
-            Debug.Log(GameManager.instance.scoreMaxPossible / 2);
-            //GetComponent<SpriteRenderer>().sprite = phaseContente;
-            animator.SetInteger("Current score", 1);
+            GetComponent<SpriteRenderer>().sprite = phaseContente;
+            animator.SetInteger("Current Score", 1);
         }
     }
 }

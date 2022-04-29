@@ -18,7 +18,6 @@ public class GameManager : MonoBehaviour
     public int currentScore;
     public int scoreByNote = 100;
     public int scoreMaxPossible;
-    public bool failed  =false;
 
     public int currentmissedRune;
     public int maxMissedRune;
@@ -35,7 +34,6 @@ public class GameManager : MonoBehaviour
         if (currentmissedRune >= maxMissedRune)
         {
             endPhase = true;
-            failed = true;
         }
         if (!startPlaying)
         {
@@ -53,12 +51,6 @@ public class GameManager : MonoBehaviour
             currentmissedRune = 0;
             maxMissedRune = 0;
             startPlaying = false;
-            if (failed)
-            {
-                player.gameObject.GetComponent<Joueur>().SpiritCalmed++;
-                failed = false;
-
-            }
 
 
 
