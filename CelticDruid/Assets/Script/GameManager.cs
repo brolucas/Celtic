@@ -12,15 +12,20 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
+    public GameObject noteHolder;
+
     public bool endPhase = false;
     public GameObject player;
 
     public int currentScore;
     public int scoreByNote = 100;
     public int scoreMaxPossible;
+    public bool failed  =false;
 
     public int currentmissedRune;
     public int maxMissedRune;
+
+    public Event box;
 
     // Start is called before the first frame update
     void Start()
@@ -31,9 +36,12 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentmissedRune >= maxMissedRune)
+        if (currentmissedRune > maxMissedRune)
         {
             endPhase = true;
+            failed = true;
+            noteHolder.SetActive(false);
+
         }
         if (!startPlaying)
         {
@@ -47,15 +55,25 @@ public class GameManager : MonoBehaviour
         {
             theMusic.Stop();
             theBS.hasStarted = false;
-            player.GetComponent<Rigidbody2D>().AddForce(Vector2.right * player.GetComponent<Auto_Run>().speed);
             currentmissedRune = 0;
             maxMissedRune = 0;
             startPlaying = false;
+            if (failed)
+            {
+                player.gameObject.GetComponent<Joueur>().SpiritCalmed--;
 
+            }
+            else
+            {
+                player.gameObject.GetComponent<Joueur>().SpiritCalmed++;
+
+            }
+            failed = false;
+            endPhase = false;
+            player.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 200 );
 
 
         }
-        endPhase = false;
 
 
     }

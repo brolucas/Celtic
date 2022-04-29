@@ -12,6 +12,7 @@ public class Event : MonoBehaviour
     public int nbrRune;
     public int difficulté = 3;
     public int nbrMaxMissedRune;
+    public Animator spiritEvent;
   
 
     private void Start()
@@ -83,10 +84,40 @@ public class Event : MonoBehaviour
         {
             collision.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             GameManager.instance.theMusic = this.theMusic;
-            noteHolder.SetActive(true);
+            noteHolder.SetActive(true); 
             btscr = noteHolder.GetComponent<BeatScroller>();
-            btscr.hasStarted = true;
+            GameManager.instance.noteHolder = noteHolder;
+            GameManager.instance.theBS = btscr.GetComponent<BeatScroller>();
+            GameManager.instance.theBS.hasStarted = true;
+            GameManager.instance.box = this;
+            spirit.GetComponent<Spirit>().goodSpirit = true;
+
+            int i = 1;
+
+            foreach (var item in collision.GetComponent<Vie>().calmedSpirits)
+            {
+                if (collision.GetComponent<Vie>().instanciedSpirits.Contains(item) == false)
+                {
+                    Instantiate<GameObject>(item, new Vector3(transform.position.x - collision.GetComponent<Vie>().distance * i, transform.position.y, transform.position.z), Quaternion.identity);
+                    item.name = i.ToString();
+                    collision.GetComponent<Vie>().instanciedSpirits.Add(item);
+
+                    i++;
+                }
+
+            }
+
+        }
             
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            
+            spirit.GetComponent<Spirit>().goodSpirit = false;
+            collision.GetComponent<Vie>().instanciedSpirits.Clear();
+
         }
     }
 }

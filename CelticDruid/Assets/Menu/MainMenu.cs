@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
         if(Input.GetAxis("Vertical") > 0)
         {
 
-            SceneManager.LoadScene("");
+            SceneManager.LoadScene("Cernunnos_game");
         }
         
         if(Input.GetAxis("Vertical") < 0)
