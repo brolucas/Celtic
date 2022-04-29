@@ -80,3 +80,4 @@ CelticDruid/Logs/AssetImportWorker0.log
 *.json
 *.log
 Library
+UserSettings
