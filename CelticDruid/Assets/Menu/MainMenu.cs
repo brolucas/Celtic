@@ -4,13 +4,20 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
-    public void PlayGame ()
+    void Update()
     {
-        SceneManager.LoadScene("");
+        if(Input.GetAxis("Vertical") > 0)
+        {
+
+            SceneManager.LoadScene("");
+        }
+        
+        if(Input.GetAxis("Vertical") < 0)
+        {
+            Application.Quit();
+            Debug.Log("quit");
+
+        }
     }
 
-    public void QuitGame ()
-    {
-        Application.Quit();
-    }
 }
