@@ -1802,7 +1802,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4613884753811683812, guid: 9425fc79a3de63946b7d2f2d9d9e3707, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< Updated upstream
       value: 390.1
+=======
+      value: -20.9
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4613884753811683812, guid: 9425fc79a3de63946b7d2f2d9d9e3707, type: 3}
       propertyPath: m_LocalPosition.y
